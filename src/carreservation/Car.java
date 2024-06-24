@@ -16,6 +16,11 @@ public class Car {
 	public void setColor(String color) {
 		this.color = color;
 	}
+	public Car(String brand, String color) {
+		super();
+		this.brand = brand;
+		this.color = color;
+	}
 	
 	
 }
